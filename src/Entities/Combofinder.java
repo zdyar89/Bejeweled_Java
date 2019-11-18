@@ -4,8 +4,6 @@ import java.util.List;
 
 import edu.utc.game.GameObject;
 
-import javax.swing.text.Position;
-
 public class Combofinder extends GameObject
 {
     private static final int MIN_LINK_LENGTH = 3;
@@ -30,14 +28,14 @@ public class Combofinder extends GameObject
 
     }
 
-    public List<Position> rowCombo(int r)
+    public List<GemPos> rowCombo(int r)
     {
-        List<Jewel> gems =
+        List<Jewel> gems = grid.g
     }
 
     public boolean swapRow(int r)
     {
-        List<Position> combo =
+        List<> combo =
     }
 
 }
