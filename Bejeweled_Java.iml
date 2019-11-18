@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Bejeweled_Java" />
-    <orderEntry type="library" name="jar1" level="project" />
+    <orderEntry type="module" module-name="game_package" />
+    <orderEntry type="library" name="jar" level="project" />
   </component>
 </module>
