@@ -13,8 +13,10 @@ class SceneManager {
 		game = new MainGame();
 		game.registerGlobalCallbacks();
 		SimpleMenu mainMenu = new SimpleMenu("mMenu");
-		mainMenu.addItem(new SimpleMenu.SelectableText(20, 20, 20, 20, "Launch Game", 1, 0, 0, 1, 1, 1), game);
-		mainMenu.addItem(new SimpleMenu.SelectableText(20, 60, 20, 20, "Exit", 1, 0, 0, 1, 1, 1), null);
+		mainMenu.addItem(new SimpleMenu.SelectableText(20, 20, 20, 20, "Welcome to Nintendo-Popper!", 1, 0, 0, 0, 0, 0), game);
+		mainMenu.addItem(new SimpleMenu.SelectableText(20, 30, 20, 20, "Intructions:", 1, 0, 0, 0 ,0 , 0),game);
+		mainMenu.addItem(new SimpleMenu.SelectableText(20, 40, 20, 20, "Launch Game", 1, 0, 0, 0, 0, 0), game);
+		mainMenu.addItem(new SimpleMenu.SelectableText(20, 50, 20, 20, "Exit", 1, 0, 0, 0, 0, 0), null);
 		mainMenu.select(0);
 		game.setScene(mainMenu);
 		game.gameLoop();
@@ -49,14 +51,5 @@ class SceneManager {
 		game.gameLoop();
 	}
 
-	static void controls() {
-		SimpleMenu controlsMenu = new SimpleMenu("cMenu");
-		controlsMenu.addItem(new SimpleMenu.SelectableText(20, 20, 20,20, "Here are your controls: ", 1, 1, 1, 1, 0, 0), game);
-		controlsMenu.addItem(new SimpleMenu.SelectableText(20, 20, 20,20, "-> A moves player left!", 1, 1, 1, 1, 0, 0), game);
-		controlsMenu.addItem(new SimpleMenu.SelectableText(20, 20, 20,20, "-> D moves player right!", 1, 1, 1, 1, 0, 0), game);
-		controlsMenu.addItem(new SimpleMenu.SelectableText(20, 20, 20,20, "-> Space is to jump!", 1, 1, 1, 1, 0, 0), game);
 
-
-
-	}
 }
