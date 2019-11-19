@@ -2,7 +2,10 @@ package VFX;
 
 import Utilities.SoundClip;
 import Utilities.SoundManager;
-import edu.utc.game.*;
+import edu.utc.game.Game;
+import edu.utc.game.Scene;
+import edu.utc.game.SimpleMenu;
+import edu.utc.game.Texture;
 import org.lwjgl.opengl.GL11;
 import static Game.MainGame.game;
 

@@ -1,9 +1,6 @@
 package edu.utc.game;
 
 import Utilities.SoundManager;
-import org.lwjgl.system.Callback;
-
-import Game.MainGame;
 
 import static Game.MainGame.game;
 import static org.lwjgl.opengl.GL11.GL_COLOR_BUFFER_BIT;

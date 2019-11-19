@@ -1,10 +1,7 @@
 package edu.utc.game;
 
 import java.nio.IntBuffer;
-import java.awt.Rectangle;
 import java.nio.ByteBuffer;
-import java.util.Dictionary;
-import java.util.Enumeration;
 import java.util.Map;
 
 import static org.lwjgl.stb.STBImage.stbi_load;

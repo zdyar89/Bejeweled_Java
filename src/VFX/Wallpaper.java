@@ -1,8 +1,10 @@
 package VFX;
 
-import edu.utc.game.*;
+import edu.utc.game.GameObject;
+import edu.utc.game.Texture;
 
-public class Wallpaper extends GameObject  {
+
+public class Wallpaper extends GameObject {
 
 	public Texture img;
 

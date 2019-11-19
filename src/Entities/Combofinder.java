@@ -1,7 +1,5 @@
 package Entities;
 
-import java.util.List;
-
 import edu.utc.game.GameObject;
 
 public class Combofinder extends GameObject

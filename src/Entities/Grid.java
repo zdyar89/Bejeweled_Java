@@ -1,6 +1,8 @@
 package Entities;
 
-import edu.utc.game.*;
+import edu.utc.game.Game;
+import edu.utc.game.GameObject;
+
 
 
 public class Grid extends GameObject {

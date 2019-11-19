@@ -3,7 +3,11 @@ package Game;
 import Entities.*;
 import Utilities.SoundClip;
 import Utilities.SoundManager;
-import edu.utc.game.*;
+import edu.utc.game.Game;
+import edu.utc.game.GameObject;
+import edu.utc.game.Scene;
+import edu.utc.game.Text;
+
 import edu.utc.game.Math.Vector2f;
 import org.lwjgl.glfw.GLFW;
 import org.lwjgl.opengl.GL11;

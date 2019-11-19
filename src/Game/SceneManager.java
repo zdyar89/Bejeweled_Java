@@ -5,7 +5,6 @@ import edu.utc.game.Scene;
 import edu.utc.game.SimpleMenu;
 
 import static Game.MainGame.game;
-import static Game.MainGame.main;
 
 class SceneManager {
 

@@ -1,6 +1,8 @@
 package Entities;
 
-import edu.utc.game.*;
+import edu.utc.game.GameObject;
+import edu.utc.game.Texture;
+
 
 public class Egg extends GameObject {
 
