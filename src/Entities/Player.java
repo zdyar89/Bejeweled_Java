@@ -16,6 +16,7 @@ public class Player extends GameObject {
 	private float jumpability;
 
 	public Player(Vector2f origin) {
+		//the method below will resize the image assets
 		this.hitbox.setBounds((int) origin.x, (int) origin.y, 30, 30);
 		this.pos = origin;
 		this.texture = new Texture("res/Textures/kirby.png");

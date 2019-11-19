@@ -131,10 +131,10 @@ public class GameBoard extends Observable
     {
         GemPos pos = new GemPos(r, c);
         //fix GameEvent class and the errors should clear out
-        GameEvent instance = new GameEvent(type, pos);
+        //GameEvent instance = new GameEvent(type, pos);
 
         setChanged();
-        notifyObservers(instance);
+        //notifyObservers(instance);
     }
 
 }

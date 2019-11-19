@@ -6,14 +6,13 @@ import edu.utc.game.Math.Vector2f;
 import edu.utc.game.Texture;
 import org.lwjgl.glfw.GLFW;
 
-public class Triangle extends  GameObject{
+public class Bowser extends GameObject{
 
     private Texture img;
     private int xPos;
-    private int ypos;
+    private int yPos;
 
-    public Triangle(){
-        this.img = new Texture("res/Textures/kirby.png");
+    public Bowser(){
+        this.img = new Texture("res/Textures/Bowser.png");
     }
-
 }

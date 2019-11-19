@@ -28,7 +28,7 @@ public class Combofinder extends GameObject
 
     }
 
-    public List<GemPos> rowCombo(int r)
+   /* public List<GemPos> rowCombo(int r)
     {
         List<Jewel> gems = grid.g
     }
@@ -36,7 +36,7 @@ public class Combofinder extends GameObject
     public boolean swapRow(int r)
     {
         List<> combo =
-    }
+    }*/
 
 }
 
